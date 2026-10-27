@@ -1,0 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* Contentful has a font-feature-setting which collides with Mediaflows glyphs, thus I disabled it */
+    font-feature-settings: normal !important;
+}
